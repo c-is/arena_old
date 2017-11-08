@@ -1,0 +1,37 @@
+@font-face {
+	font-family:'Charlie Brown M54';
+	src: url('/assets/fonts/charlie-brown-m54.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'ＤＦＰ勘亭流';
+	src: url('/assets/fonts/dfpKanteryu.dfont') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'Impact';
+	src: url('/assets/fonts/Impact.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'Superstar M54';
+	src: url('/assets/fonts/Superstar-M54.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'Futura';
+	src: url('/assets/fonts/Futura.ttc') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'ヒラギノ明朝';
+	src: url('/assets/fonts/ヒラギノ明朝 ProN W6.ttc') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+

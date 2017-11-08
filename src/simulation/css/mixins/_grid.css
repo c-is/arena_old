@@ -1,0 +1,8 @@
+/*@function cz($amount) {
+	@return 8 * $amount;
+}
+
+@function getColumnWidth($width, $columns,$margin) {
+	@return ($width / $columns) - ($margin * 2);
+}
+*/

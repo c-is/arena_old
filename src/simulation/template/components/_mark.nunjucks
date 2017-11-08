@@ -1,0 +1,4 @@
+<ul class="custom-pick__mark clear js-mark-pick">
+	<li><a data-mark="on"><i class="icon icon--tick"></i>マークあり</a></li>
+	<li><a class="active" data-mark="off"><i class="icon icon--tick"></i>マークなし</a></li>
+</ul>

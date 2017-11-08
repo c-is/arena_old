@@ -1,0 +1,220 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+<div id="simulation"></div>
+<style>
+	ul {
+		padding: 20px;
+		clear: both;
+	}
+	ul li {
+		width: 100px;
+		height: 40px;
+		float: left;
+		margin-right: 20px;
+		border: 1px solid black;
+		list-style: none;
+	}
+	ul li.active {
+		border: 1px solid red;
+	}
+	.hide {
+		display: none;
+	}
+	#colour-code {
+		font-weight: bold;
+	}
+</style>
+</body>
+</html>
+<script>
+$( document ).ready(function() {
+	
+	$.urlParam = function(name){
+	    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    if (results==null){
+	       return null;
+	    } else {
+	       return results[1] || 26;
+	    }
+	}
+	
+	// JSON データ取得
+	var url = 'http://arena.ccvdev.net/simulation/wp-json/wp/v2/posts/' + $.urlParam('id');
+	$.ajax({
+		url: url,
+		success: function(data){
+			// 初期化
+			var colour_code = data.meta.codes;
+			// カラーのレベル数を取得する
+			$.each(colour_code, function( index, value ) {
+				window['total_colour'] = value.length;
+				return false;
+			});
+			window['keycode_upper'] = 65;
+			window['keycode_lower'] = 97;
+			for (i = 1; i <= window['total_colour']; i++) {
+				window['colour' + i] = [];
+				window['label' + i] = [];
+
+				// DOMに設定用
+				window['dom_colour' + i] = [];
+				window['dom_label' + i] = [];
+			}
+			window['colour'] = [];
+			window['colour_code_name'] = [];
+
+			$.each(colour_code, function( index, value ) {
+				// 総合カラーリスト
+				temp = [];
+				$.each(value, function( i, v ) {
+					temp.push(v.hex);
+				});
+				window['colour'].push(temp);
+				window['colour_code_name'].push(index);
+
+				// レベル毎のカラーリスト
+				for (i = 1; i <= window['total_colour']; i++) {
+					if (typeof(value[i-1]) != 'undefined') {
+						window['colour' + i].push(value[i-1].hex);
+						window['label' + i].push(value[i-1].label);
+						if ($.inArray(value[i-1].hex, window['dom_colour' + i]) == -1) {
+							window['dom_colour' + i].push(value[i-1].hex);
+							window['dom_label' + i].push(value[i-1].label);
+						}
+					}
+					else {
+						window['colour' + i].push("");
+						window['label' + i].push("");
+						console.log("データが足りていないカラーコードあります：" + index);
+					}
+				}
+			});
+
+			for (i = 1; i <= window['total_colour']; i++) {
+				// レベル毎色を並び替え
+				// window['colour' + i].sort(function(a, b){return a-b});
+				// window['dom_colour' + i].sort(function(a, b){return a-b});
+
+				// DOMに設定
+				var ttl = String.fromCharCode(window['keycode_upper'] + (i - 1));
+				var target = String.fromCharCode(window['keycode_lower'] + (i - 1));
+				var txt = '<div class="colour-section is-border"><h5 class="colour-name">' + ttl + 'カラー</h5><ul class="custom-pick__colours js-colour colour' + i + '" data-level="' + i + '" data-cate="bcol" data-target="#' + target + '-color"></ul></div>'
+				$('#simulation').append(txt);
+				// $.each(window['dom_colour' + i], function( index, value ) {
+				// 	txt = '<li class="" data-code="" data-colour="' + value + '" style="background: ' + value + ';"></li>';
+				// 	$('.colour' + i).append(txt);
+				// });
+				$.each(window['dom_colour' + i], function( index, value ) {
+					txt = '<li class="" data-code="" data-colour="' + value + '" style="background: ' + value + ';"><span style="background: brown; color: white; margin:auto; display: block; width: 70px; height: 20px; padding: 5px 0; text-align: center;">' + value + '</span></li>';
+					$('.colour' + i).append(txt);
+				});
+			}
+			var txt = '<div class="colour-section"><p id="colour-code" class="colour-code u-text-right"></p></div>';
+			$('#simulation').append(txt);
+
+			// 初期アクティブ化
+			var click_interval = setInterval(function(){ 
+				$('#simulation .colour1 li:first-child').click();
+				clearInterval(click_interval);
+			}, 10);
+
+			// 色のボタンをクリック処理
+			$(document).on('click', '#simulation li', function(e) {
+				var level = parseInt($(this).parents('ul').attr('data-level'));
+				var click_colour = $(this).attr('data-colour');
+				var parent_colour = click_colour;
+				var available_index = [];
+
+				$('.colour' + level + ' li').removeClass('active');
+				$(this).addClass('active');
+
+				if (level > 1) {
+					var another_parent_colour = $('.colour1 li.active').eq(0).attr('data-colour');
+					for (i = 1; i < level; i++) {
+						colour_index = window['colour' + i].multiIndexOf(another_parent_colour);
+						if (!available_index.length) {
+							available_index = colour_index;
+						}
+						else {
+							temp = [];
+							$.each(available_index, function( index, value ) {
+								if ($.inArray(value, colour_index) !== -1) {
+									temp.push(value);
+								}
+							});
+							available_index = temp;
+						}
+						another_parent_colour = $('.colour' + (i + 1) + ' li.active').eq(0).attr('data-colour');
+					}
+				}
+
+				for (i = level; i < window['total_colour']; i++) {
+					// 下のレベルの色をリセット
+					$('.colour' + (i + 1) + ' li').removeClass('active');
+					$('.colour' + (i + 1) + ' li').addClass('hide');
+					colour_index = window['colour' + i].multiIndexOf(parent_colour);
+					if (!available_index.length) {
+						available_index = colour_index;
+					}
+					if (i !== 1) {
+						temp = [];
+						$.each(available_index, function( index, value ) {
+							if ($.inArray(value, colour_index) !== -1) {
+								temp.push(value);
+							}
+						});
+						available_index = temp;
+					}
+					$.each(available_index, function( index, value ) {
+						// 押下可能な下のレベルの色を表示する
+						var next_colour = window['colour' + (i + 1)][value];
+						$('.colour' + (i + 1) + ' li[data-colour="' + next_colour + '"]').removeClass('hide');
+					});
+					// 下のレベルの先頭の色にアクティブ化する
+					$('.colour' + (i + 1) + ' li:not(.hide)').eq(0).addClass('active');
+					parent_colour = $('.colour' + (i + 1) + ' li:not(.hide)').eq(0).attr('data-colour');
+				}
+				
+				var available_index = [];
+				var compare_index = [];
+				for (i = window['total_colour']; i >= 1; i--) {
+					var child_colour = $('.colour' + i + ' li.active').eq(0).attr('data-colour');
+					if (i == window['total_colour']) {
+						var available_index = window['colour' + i].multiIndexOf(child_colour);
+					}
+					else {
+						var compare_index = window['colour' + i].multiIndexOf(child_colour);
+						var temp = [];
+						$.each(available_index, function( index, value ) {
+							if ($.inArray(value, compare_index) !== -1) {
+								temp.push(value);
+							}
+						});
+						available_index = temp;
+					}
+				}
+				available_index = available_index[0];
+				$('#colour-code').text(window['colour_code_name'][available_index]);
+			});
+		},
+		error: function(){
+			alert('データ取得ができませんでした。');
+		}
+	});
+
+	Array.prototype.multiIndexOf = function (el) { 
+	    var idxs = [];
+	    for (var i = this.length - 1; i >= 0; i--) {
+	        if (this[i] === el) {
+	            idxs.unshift(i);
+	        }
+	    }
+	    return idxs;
+	};
+	
+});
+
+</script>

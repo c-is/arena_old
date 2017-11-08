@@ -1,0 +1,1622 @@
+{
+  "id": 26,
+  "slug": "oar-7010w",
+  "link": "http://arena.ccvdev.net/simulation/swimwear/aquaforce-fusion-2/oar-7010w/",
+  "title": {
+    "rendered": "OAR-7010W"
+  },
+  "content": {
+    "rendered": "<p>レディース水着（ハーフスパッツオープンバック（クロスバック））</p>\n",
+    "protected": false
+  },
+  "featured_media": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/OAR-7010W-21x64.png",
+  "sticky": false,
+  "template": "",
+  "meta": {
+    "price": "15,000",
+    "svg": {
+      "front": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/OAR-7010W.svg",
+      "back": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/OAR-7010W_back.svg"
+    },
+    "codes": {
+      "BK01": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK02": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK03": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK04": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK05": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK06": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK07": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "BK11": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK12": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK13": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK14": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK15": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK16": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK17": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "BK21": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK22": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK23": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK24": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK25": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK26": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK27": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK31": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        }
+      ],
+      "BK32": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        }
+      ],
+      "BK33": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        }
+      ],
+      "BK34": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        }
+      ],
+      "BK35": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        }
+      ],
+      "BK36": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        }
+      ],
+      "BK38": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "BK37": [
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        }
+      ],
+      "NV01": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV02": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV03": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV04": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV05": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV06": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV07": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "ブラック",
+          "hex": "#000000"
+        }
+      ],
+      "NV11": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV12": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV13": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV14": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV15": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV16": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV17": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        },
+        {
+          "label": "ホワイト",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "NV21": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ブルー",
+          "hex": "#0076B4"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV22": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Lグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV23": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "イエロー",
+          "hex": "#FFDB00"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV24": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV25": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV26": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV27": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ],
+      "NV31": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        },
+        {
+          "label": "Fブルー",
+          "hex": "#008CCF"
+        }
+      ],
+      "NV32": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        },
+        {
+          "label": "Fグリーン",
+          "hex": "#5CB533"
+        }
+      ],
+      "NV33": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "イエローF",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        },
+        {
+          "label": "Cイエロー",
+          "hex": "#FFF100"
+        }
+      ],
+      "NV34": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Fオレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        },
+        {
+          "label": "オレンジ",
+          "hex": "#EA5207"
+        }
+      ],
+      "NV35": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Bレッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        },
+        {
+          "label": "レッド",
+          "hex": "#E6002C"
+        }
+      ],
+      "NV36": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        },
+        {
+          "label": "Fピンク",
+          "hex": "#D8518F"
+        }
+      ],
+      "NV37": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "Pパープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        },
+        {
+          "label": "パープル",
+          "hex": "#844798"
+        }
+      ],
+      "NV38": [
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "ネイビー",
+          "hex": "#16294D"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        },
+        {
+          "label": "シルバー",
+          "hex": "#B5B6B6"
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "term_id": 3,
+      "name": "AQUAFORCE FUSION Ⅱ",
+      "slug": "aquaforce-fusion-2",
+      "term_group": 0,
+      "term_taxonomy_id": 3,
+      "taxonomy": "category",
+      "description": "表地には、多くのトップスイマーが着用している布帛素材を100%使用しています。今まで布帛素材を着用したことの無いスイマーにもお勧めできるハイパフォーマンスモデルです。",
+      "parent": 2,
+      "count": 4,
+      "filter": "raw",
+      "term_order": 0,
+      "cat_ID": 3,
+      "category_count": 4,
+      "category_description": "表地には、多くのトップスイマーが着用している布帛素材を100%使用しています。今まで布帛素材を着用したことの無いスイマーにもお勧めできるハイパフォーマンスモデルです。",
+      "cat_name": "AQUAFORCE FUSION Ⅱ",
+      "category_nicename": "aquaforce-fusion-2",
+      "category_parent": 2
+    }
+  ],
+  "tags": [
+    {
+      "term_id": 12,
+      "name": "Women’s",
+      "slug": "women",
+      "term_group": 0,
+      "term_taxonomy_id": 12,
+      "taxonomy": "post_tag",
+      "description": "",
+      "parent": 0,
+      "count": 14,
+      "filter": "raw",
+      "term_order": 0
+    },
+    {
+      "term_id": 14,
+      "name": "Girl’s",
+      "slug": "girl",
+      "term_group": 0,
+      "term_taxonomy_id": 14,
+      "taxonomy": "post_tag",
+      "description": "",
+      "parent": 0,
+      "count": 14,
+      "filter": "raw",
+      "term_order": 0
+    }
+  ],
+  "size": [
+    "SS",
+    "S",
+    "M",
+    "L",
+    "O"
+  ],
+  "material": [
+    {
+      "term_id": 78,
+      "name": "アクアフォースフィルムST",
+      "slug": "aqua-force-film-st",
+      "term_group": 0,
+      "term_taxonomy_id": 78,
+      "taxonomy": "material",
+      "description": "",
+      "parent": 0,
+      "count": 4,
+      "filter": "raw",
+      "term_order": 4
+    },
+    {
+      "term_id": 93,
+      "name": "X-パイソン-P",
+      "slug": "x-python-p",
+      "term_group": 0,
+      "term_taxonomy_id": 93,
+      "taxonomy": "material",
+      "description": "",
+      "parent": 0,
+      "count": 10,
+      "filter": "raw",
+      "term_order": 6
+    }
+  ],
+  "mark-position": [
+    {
+      "name": "A",
+      "slug": "a",
+      "description": "左胸ヨコ（小）",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-pos-a.png",
+      "max-en": null,
+      "max-em": null
+    },
+    {
+      "name": "B",
+      "slug": "b",
+      "description": "左胸タテ（小）",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-pos-b.png",
+      "max-en": null,
+      "max-em": null
+    },
+    {
+      "name": "J",
+      "slug": "j",
+      "description": "胸中央（小）",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-pos-j.png",
+      "max-en": null,
+      "max-em": null
+    },
+    {
+      "name": "O",
+      "slug": "o",
+      "description": "左モモ右上がり（小）",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-pos-o.png",
+      "max-en": null,
+      "max-em": null
+    },
+    {
+      "name": "M",
+      "slug": "m",
+      "description": "右スソ（小）",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-pos-m.png",
+      "max-en": null,
+      "max-em": null
+    }
+  ],
+  "mark-font": [
+    {
+      "name": "Swis721 Md BT",
+      "slug": "mrk001",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk001.png"
+    },
+    {
+      "name": "Swis721 Blk BT",
+      "slug": "mrk002",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk002.png"
+    },
+    {
+      "name": "Aachen BT",
+      "slug": "mrk006",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk006.png"
+    },
+    {
+      "name": "Roman",
+      "slug": "mrk021",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk021.png"
+    },
+    {
+      "name": "Windsor El BT",
+      "slug": "mrk023",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk023.png"
+    },
+    {
+      "name": "Fullblock",
+      "slug": "mrk034",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk034.png"
+    },
+    {
+      "name": "Cheltenhm BdHd BT",
+      "slug": "mrk035",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk035.png"
+    },
+    {
+      "name": "Pisa",
+      "slug": "mrk036",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk036.png"
+    },
+    {
+      "name": "Fancy",
+      "slug": "mrk037",
+      "description": "",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk037.png"
+    },
+    {
+      "name": "HGSoeiKakugothicUB",
+      "slug": "mrk038",
+      "description": "HG創英角ｺﾞｼｯｸUB",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk038.png"
+    },
+    {
+      "name": "HGSyounanGyoshotai",
+      "slug": "mrk040",
+      "description": "HG祥南行書体",
+      "img": "http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk040.png"
+    }
+  ],
+  "mark-color": [
+    [
+      "ホワイト",
+      "#ffffff"
+    ],
+    [
+      "イエロー",
+      "#ffdd00"
+    ],
+    [
+      "レッド",
+      "#ed1c24"
+    ],
+    [
+      "シルバー",
+      "#a7aaac"
+    ],
+    [
+      "ネイビー",
+      "#33336d"
+    ],
+    [
+      "ブラック",
+      "#232020"
+    ],
+    [
+      "ブルー",
+      "#034694"
+    ],
+    [
+      "グリーン",
+      "#00854a"
+    ]
+  ],
+  "params": {
+    "1": 26,
+    "context": "view",
+    "id": 26
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/posts/26"
+      }
+    ],
+    "collection": [
+      {
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/comments?post=26"
+      }
+    ],
+    "version-history": [
+      {
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/posts/26/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/media/270"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/media?parent=26"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/categories?post=26"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/tags?post=26"
+      },
+      {
+        "taxonomy": "size",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/size?post=26"
+      },
+      {
+        "taxonomy": "material",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/material?post=26"
+      },
+      {
+        "taxonomy": "mark-position",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/mark-position?post=26"
+      },
+      {
+        "taxonomy": "mark-font",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/mark-font?post=26"
+      },
+      {
+        "taxonomy": "mark-color",
+        "embeddable": true,
+        "href": "http://arena.ccvdev.net/simulation/wp-json/wp/v2/mark-color?post=26"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

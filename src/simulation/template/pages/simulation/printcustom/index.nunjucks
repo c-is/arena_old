@@ -1,0 +1,363 @@
+{% block pageid %}simulation{% endblock %}
+{% block title %}simulation{% endblock %}
+
+{% extends 'layout/_layout.nunjucks' %}
+
+{% block content %}
+<main class="main main--simulation" id="main" role="main">
+	<article class="content content--simulation" id="content">
+		<nav class="content-navigation">
+			<ul class="clear">
+				<li><span>種類を選ぶ</span></li>
+				<li class="active"><span>カスタムする</span></li>
+				<li><span>オーダーする</span></li>
+			</ul>
+		</nav>
+		<section class="section section--custom is-swimwear js-get-height">
+			<div class="custom-menu" id="wear_1_01">
+				<ul class="custom-menu__tabs clear u-pc">
+					<li class="active" data-tab=".custom-wear-simulation">SWIM WEAR<br>SIMULATION</li>
+					<li data-tab=".custom-mark-simulation">MARK<br>SIMULATION</li>
+				</ul>
+
+				<div class="custom-menu__head u-sp">SWIM WEAR<br>SIMULATION</div>
+				<div class="custom-menu__tap is-hidden">（タップして開く）</div>
+				<div class="custom-menu__content custom-wear-simulation active">
+					<div class="custom-pick">
+						<h4 class="custom-pick__title">TYPE</h4>
+						<ul class="custom-pick__list js-wear-type clear">
+							<li>
+								<a class="active" data-svg="OAR-7010W"><img src="/simulation/assets/images/customisation/custom1.png" alt="top"></a>
+							</li>
+							<li>
+								<a data-svg="item1-body"><img src="/simulation/assets/images/customisation/custom2.png" alt="top"></a>
+							</li>
+							<li class="is-no-option">
+								<img src="/simulation/assets/images/customisation/custom-none.png" alt="top">
+							</li>
+							<li class="is-no-option">
+								<img src="/simulation/assets/images/customisation/custom-none.png" alt="top">
+							</li>
+						</ul>
+					</div>
+					<div class="custom-pick">
+						<h4 class="custom-pick__title is-border">COLOR</h4>
+						<div class="colour-section is-border">
+							<h5 class="colour-name">Aカラー</h5>
+							<ul class="custom-pick__colours js-colour" data-cate="bcol" data-target="#a-color">
+								<li class="colour--black active" data-code="BLK" data-colour="#211614"></li>
+								<li class="colour--red" data-code="RED" data-colour="#E93235"></li>
+								<li class="colour--blue" data-code="BLU" data-colour="#0B6FB8"></li>
+								<li class="colour--pink" data-code="PNK" data-colour="#E30882"></li>
+								<li class="colour--dark-blue" data-code="DBL" data-colour="#0F204C"></li>
+								<li class="colour--white" data-code="WHT" data-colour="#fff"></li>
+							</ul>
+						</div>
+						<div class="colour-section is-border">
+							<h5 class="colour-name">Bカラー</h5>
+							<ul class="custom-pick__colours js-colour" data-cate="bcol2" data-target="#b-color">
+								<li class="colour--black" data-code="BLK" data-colour="#211614"></li>
+								<li class="colour--red" data-code="RED" data-colour="#E93235"></li>
+								<li class="colour--blue active" data-code="BLU" data-colour="#0B6FB8"></li>
+								<li class="colour--pink" data-code="PNK" data-colour="#E30882"></li>
+								<li class="colour--white" data-code="WHT" data-colour="#fff"></li>
+							</ul>
+						</div>
+						<div class="colour-section is-border">
+							<h5 class="colour-name">Cカラー</h5>
+							<ul class="custom-pick__colours js-colour" data-cate="bcol3" data-target="#c-color">
+								<li class="colour--black" data-code="BLK" data-colour="#211614"></li>
+								<li class="colour--red" data-code="RED" data-colour="#E93235"></li>
+								<li class="colour--blue active" data-code="BLU" data-colour="#0B6FB8"></li>
+								<li class="colour--pink" data-code="PNK" data-colour="#E30882"></li>
+								<li class="colour--white" data-code="WHT" data-colour="#fff"></li>
+							</ul>
+						</div>
+						<div class="colour-section is-border">
+							<h5 class="colour-name">Dカラー</h5>
+							<ul class="custom-pick__colours js-colour" data-cate="bcol4" data-target="#d-color">
+								<li class="colour--white" data-code="WHT" data-colour="#fff"></li>
+							</ul>
+						</div>
+						<div class="colour-section">
+							<p class="colour-code u-text-right">BK01</p>
+						</div>
+					</div>
+					<p class="read-more js-read-more"></p>
+				</div>
+
+				<div class="custom-menu__head u-sp">MARK<br>SIMULATION</div>
+				<div class="custom-menu__tap">（タップして開く）</div>
+				<div class="custom-menu__content custom-mark-simulation">
+					<div class="custom-pick">
+						<ul class="custom-pick__mark clear js-mark-pick">
+							<li><a class="active" data-mark="on" href=""><i class="icon icon--tick"></i>マークあり</a></li>
+							<li><a data-mark="off" href=""><i class="icon icon--tick"></i>マークなし</a></li>
+						</ul>
+					</div>
+					<div class="custom-pick">
+						<h4 class="custom-pick__title is-border">マークの位置</h4>
+						<ul class="custom-pick__list js-mark-pos clear" data-cate="pos" data-target=".js-svg-text">
+							<li>
+								<a data-pos="A" data-angle="0" data-max-en="8" data-max-em="5" class="active">
+									<img src="/simulation/assets/images/customisation/mark-pos1.png" alt="top">
+								</a>
+							</li>
+							<li>
+								<a data-pos="B" data-angle="0" data-max-en="8" data-max-em="5">
+									<img src="/simulation/assets/images/customisation/mark-pos2.png" alt="top">
+								</a>
+							</li>
+							<li>
+								<a data-pos="C" data-angle="0" data-max-en="8" data-max-em="5">
+									<img src="/simulation/assets/images/customisation/mark-pos3.png" alt="top">
+								</a>
+							</li>
+							<li>
+								<a data-pos="O" data-angle="0" data-max-en="8" data-max-em="5">
+									<img src="/simulation/assets/images/customisation/mark-pos4.png" alt="top">
+								</a>
+							</li>
+							<li>
+								<a data-pos="E" data-angle="0" data-max-en="8" data-max-em="5">
+									<img src="/simulation/assets/images/customisation/mark-pos5.png" alt="top">
+								</a>
+							</li>
+							<li>
+								<a data-pos="N" data-angle="0" data-max-en="8" data-max-em="5">
+									<img src="/simulation/assets/images/customisation/mark-pos6.png" alt="top">
+								</a>
+							</li>
+							<li class="is-no-option">
+								<a href=""><img src="/simulation/assets/images/customisation/custom-none.png" alt="top"></a>
+							</li>
+							<li class="is-no-option">
+								<a href=""><img src="/simulation/assets/images/customisation/custom-none.png" alt="top"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="custom-pick">
+						<h4 class="custom-pick__title is-border">マークの書体</h4>
+						<div class="colour-section">
+							<ul class="custom-pick__fonts js-mark-family clear" data-cate="family">
+								<li class="font--charlie"><input type="radio" id="custom-font1" data-code="038" value=".mrk038" name="custom-font" checked><label for="custom-font1">abcd 1234</label></li>
+								<li class="font--impact"><input type="radio" id="custom-font2" data-code="040" value=".mrk040" name="custom-font"><label for="custom-font2">abcd 1234</label></li>
+								<li class="font--superstar"><input type="radio" id="custom-font3" data-code="001" value=".mrk001" name="custom-font"><label for="custom-font3">abcd 1234</label></li>
+								<li class="font--futura"><input type="radio" id="custom-font4" data-code="006" value=".mrk006" name="custom-font"><label for="custom-font4">abcd 1234</label></li>
+								<li class="font--dark-blue"><input type="radio" id="custom-font5" data-code="021" value=".mrk021" name="custom-font"><label for="custom-font5">abcd 1234</label></li>
+								<li class="font--white"><input type="radio" id="custom-font6" data-code="038" value=".mrk038" name="custom-font"><label for="custom-font6">abcd 1234</label></li>
+								<li class="font--hiramin"><input type="radio" id="custom-font7" data-code="038" value=".mrk038" name="custom-font"><label for="custom-font7">あいうえお</label></li>
+							</ul>
+						</div>
+					</div>
+					<div class="custom-pick">
+						<h4 class="custom-pick__title is-border">マークの色</h4>
+						<div class="colour-section">
+							<ul class="custom-pick__colours js-colour js-colour--mark" data-cate="col" data-target="#position-n">
+								<li class="colour--black active" data-code="BLK" data-colour="#211614"></li>
+								<li class="colour--red" data-code="RED" data-colour="#E93235"></li>
+								<li class="colour--blue" data-code="BLU" data-colour="#0B6FB8"></li>
+								<li class="colour--pink" data-code="PNK" data-colour="#E30882"></li>
+								<li class="colour--dark-blue" data-code="DBL" data-colour="#0F204C"></li>
+								<li class="colour--white" data-code="WHT" data-colour="#fff"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="custom-pick">
+						<h4 class="custom-pick__title is-border">マークの名前</h4>
+						<form class="custom-pick__input" data-cate="text">
+							<input class="js-mark-text" type="text" name="" placeholder="入力する">
+							<input class="js-mark-submit js-mark-popup-trigger" data-popup=".popup--mark-check" type="submit" name="" value="マークを確認する">
+							<div class="form-message"></div>
+						</form>
+						<p class="form-notes">※書体06は小文字の指定ができません。</p>
+					</div>
+					<p class="read-more js-read-more"></p>
+				</div>
+			</div>
+			<div class="custom-info">
+				<h3 class="custom-info__title"><img src="/simulation/assets/images/common/text-swimwear.png" alt="SWIMWEAR"></h3>
+				<p class="custom-info__type">クロスタイプ</p>
+				<p class="custom-info__subtype">OAR-4300<br>クロスジャケット　※裏地メッシュなし</p>
+				<ul class="custom-info__list u-pc">
+					<li>本体価格：￥13,000 +税</li>
+					<li>SIZE：SS・S・M・L・O・XO・XA・XB</li>
+					<li>MATERIAL：アリーナクロス</li>
+				</ul>
+				<div class="custom-info__price u-sp">本体価格：￥13,000 +税</div>
+				<a href="" class="custom-info__link is-red js-popup-trigger u-pc" data-popup=".popup--design-note">デザインに関する注意事項</a>
+
+				<div class="order-info js-order-info">
+					<a href="" class="button button--close js-order-info-close--sp u-sp u-tb"></a>
+					<ul>
+						<li><a class="order-info__link " href="">この内容で保存する</a></li>
+						<li><a class="order-info__link js-order-sheet js-popup-trigger" href="" data-popup=".popup--order-sheet">この内容でオーダーシートを作る</a></li>
+						<li>
+							<a class="order-info__link js-modal" href="" data-modal=".modal--share">この組み合わせを仲間と共有する</a>
+							<div class="modal modal--share">
+								<a class="icon icon--line" href=""></a>
+								<a class="icon icon--twitter" href=""></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="custom-display">
+				<div class="custom-display-core js-base-display">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32.84 100.62"><defs><style>.cls-1,.cls-10,.cls-11,.cls-13,.cls-14,.cls-9{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-4{clip-path:url(#clip-path-2);}.cls-6{clip-path:url(#clip-path-3);}.cls-8{clip-path:url(#clip-path-4);}.cls-9{stroke:#231814;stroke-width:0.1px;}.cls-10,.cls-11,.cls-13,.cls-14,.cls-9{stroke-miterlimit:10;}.cls-10,.cls-11,.cls-13,.cls-14{stroke:#008ccf;stroke-width:0.56px;}.cls-11{stroke-dasharray:0.13 0.13;}.cls-12{fill:#0076b4;}.cls-13{stroke-dasharray:0.12 0.12;}.cls-14{stroke-dasharray:0.13 0.13;}</style><clipPath id="clip-path" transform="translate(-2.18 -0.54)"><path class="cls-1" d="M3.38,55.89c-.49,4.44-1.2,9.87-.71,14.1a108.77,108.77,0,0,0,1.9,12.48c1,4.23,2.75,10.5,3.67,15.08a15.68,15.68,0,0,0,10.36-.21c0-1.13-.53-8-.6-9s-.57-4.86-.81-7.47-.11-5.18-.18-7.4A4.38,4.38,0,0,0,16.47,71a.46.46,0,0,0-.09-.09h0c-2.62-.29-3.65-1.14-5.73-6.15A74.65,74.65,0,0,1,6.9,49.79c-.53-3.63-.92-6.7-.92-6.7H6C5.25,46.37,3.82,52,3.38,55.89"/></clipPath><linearGradient id="4" x1="-272.91" y1="465.05" x2="-271.91" y2="465.05" gradientTransform="matrix(16.1, 0, 0, -16.1, 4393.76, 7557.29)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#383635"/><stop offset="0.26" stop-color="#312f2e"/><stop offset="0.64" stop-color="#1d1a1a"/><stop offset="1" stop-color="#050102"/></linearGradient><clipPath id="clip-path-2" transform="translate(-2.18 -0.54)"><path class="cls-1" d="M33.44,21.47s-1.16,4.18-1.85,6.24a56.58,56.58,0,0,1-3.7,9.46,155.58,155.58,0,0,0-7.4,17c-2.25,6-4.39,14.7-4,16.7h-.05A4.33,4.33,0,0,1,17,73.39c.07,2.22-.07,4.8.18,7.4s.74,6.48.81,7.47.6,7.9.6,9l.21,1.62s.92,2.26,5.85,2,5.35-1.06,5.71-1.62c0,0,.07-1.83.28-3.45s.7-5.29,1.41-8.88,2.18-12.76,2.18-17S34,58.23,33.12,54.56,30.72,46,30.23,44.27s-1.34-5-.35-7.89,3.95-10.92,4.23-11.56.92-1.2.35-2c-.23-.35-.61-.82-1-1.32Z"/></clipPath><linearGradient id="3" x1="-273.53" y1="465.76" x2="-272.53" y2="465.76" gradientTransform="matrix(18.22, 0, 0, -18.22, 4997.57, 8546.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#383637"/><stop offset="0.11" stop-color="#343233"/><stop offset="0.22" stop-color="#272526"/><stop offset="0.34" stop-color="#131011"/><stop offset="0.4" stop-color="#050102"/><stop offset="0.62" stop-color="#1d1a1b"/><stop offset="0.84" stop-color="#2f2d2e"/><stop offset="1" stop-color="#353334"/></linearGradient><clipPath id="clip-path-3" transform="translate(-2.18 -0.54)"><path class="cls-1" d="M27.89.93c-.21.19-1.92,1.69-2.19,1.9s-1.5,1-1.5,1a23.46,23.46,0,0,1-5,2.7,12.84,12.84,0,0,1-2.32.74c-3.15.13-3.94-1.45-4.1-2.19a1.74,1.74,0,0,1,.08-.84s.27-.65.48-1.1.71-1.29.71-1.29a4,4,0,0,0-1,.62s-.5.33-.65.4a2.32,2.32,0,0,0-.42.31s-.52.21-.9.4a1.68,1.68,0,0,0-.69.67c0,.06-.79,1.38-.79,1.38-1,1.78-2.63,4.63-3.36,5.95-1.06,1.9-3.53,6-3.53,8.32A17.86,17.86,0,0,0,4.26,25.6,46.77,46.77,0,0,1,5.67,33c.49,4,1.06,5.92.49,8.88-.06.34-.14.73-.24,1.15H6s.39,3.07.92,6.7a74.63,74.63,0,0,0,3.75,14.93c2.07,5,3.11,5.86,5.73,6.15h0a.38.38,0,0,1,.09.09h0c-.42-2,1.71-10.74,4-16.7,3-8,6.89-12.68,9.06-16.91,1.56-5,2.31-6.26,3-8.32s.89-7.49.89-7.49l0,0a9.27,9.27,0,0,1-1.33-2.07c-.35-1-1.27-3-2.26-5s-1.77-3-1.95-4.28h0a19.41,19.41,0,0,1-.33-3.76,15.57,15.57,0,0,1,.33-2.57,10,10,0,0,1,1.65-1.61c.56-.48.85-.29.85-.29l-.19-.21a7,7,0,0,0-.67-.5A5.54,5.54,0,0,0,28.7.58a.31.31,0,0,0-.15,0c-.24,0-.49.24-.66.39"/></clipPath><linearGradient id="3-2" x1="-275.45" y1="467.85" x2="-274.45" y2="467.85" gradientTransform="matrix(30.65, 0, 0, -30.65, 8443.28, 14375.31)" xlink:href="#3"/><clipPath id="clip-path-4" transform="translate(-2.18 -0.54)"><rect class="cls-1" width="35.02" height="102.05"/></clipPath></defs><title>OAR-7010W</title>
+					<g id="a-color"><g class="cls-2"><rect class="cls-3" y="42.55" width="16.42" height="56.29"/></g><g class="cls-4"><rect class="cls-5" x="13.92" y="20.92" width="18.92" height="79.7"/></g><g class="cls-6"><rect class="cls-7" x="0.6" width="30.65" height="70.37"/></g><g class="cls-8"><path class="cls-9" d="M16.35,70.8s.57.35.63,2.57-.07,4.79.18,7.4.74,6.49.81,7.47.6,7.89.6,9" transform="translate(-2.18 -0.54)"/><path class="cls-10" d="M6,43v.06" transform="translate(-2.18 -0.54)"/><path class="cls-10" d="M16.32,70.79h.06" transform="translate(-2.18 -0.54)"/><path class="cls-10" d="M29.88,36.38l0,.05" transform="translate(-2.18 -0.54)"/><path class="cls-10" d="M16.48,70.83v.06" transform="translate(-2.18 -0.54)"/><path class="cls-11" d="M12.84,98.47c0-.11-.45-11-.88-16.55-.29-3.79-2.86-10-4.74-14.59-.88-2.14-1.65-4-2-5.19a51,51,0,0,1-1.63-7.45" transform="translate(-2.18 -0.54)"/><path class="cls-11" d="M31.21,47.56,24.4,63.33c-1.6,3.73-7,16.06-6.69,22.65" transform="translate(-2.18 -0.54)"/><line class="cls-10" x1="8.23" y1="3.95" x2="8.29" y2="3.97"/><line class="cls-10" x1="10.66" y1="4.81" x2="10.72" y2="4.83"/><line class="cls-10" x1="21.02" y1="3.98" x2="21.08" y2="3.97"/><line class="cls-10" x1="25.9" y1="3.05" x2="25.96" y2="3.04"/></g>
+					</g>
+					<g id="b-color"><path class="cls-12" d="M18,85.8c-.29-6.05,3.6-15.84,6.19-21.9l6.92-16.13.13,0c.63,2.11,1.38,4.7,1.88,6.87C34,58.28,34.25,65.82,34.25,70s-1.48,13.39-2.18,17-1.2,7.26-1.41,8.88-.28,3.45-.28,3.45c-.35.56-.78,1.41-5.71,1.62a8.56,8.56,0,0,1-4.55-.8l0,0-.28-.18-.14-.09-.12-.1,0,0a2.4,2.4,0,0,1-.68-.82l-.2-1.57h0c0-1.13-.53-8-.6-9,0-.09,0-.21,0-.35s0-.13,0-.2c0-.24-.06-.54-.09-.86,0,0,0,0,0-.07l-.07-.63a.19.19,0,0,1,0-.05l0-.38Z" transform="translate(-2.18 -0.54)"/><path class="cls-12" d="M3.61,54.69A47.53,47.53,0,0,0,5.19,62C6.35,65.78,11.53,76.3,12,81.92s.86,16.28.86,16.28v.1a13.59,13.59,0,0,1-4.56-.74C7.35,93,5.6,86.74,4.62,82.52A108.69,108.69,0,0,1,2.71,70c-.49-4.23.21-9.66.71-14.1,0-.4.1-.83.16-1.26Z" transform="translate(-2.18 -0.54)"/>
+					</g>
+					<g id="c-color">
+					<path class="cls-11" d="M6,43.2c.09.71.44,3.41.89,6.52a74.66,74.66,0,0,0,3.76,14.93c2,4.94,3.08,5.84,5.63,6.14" transform="translate(-2.18 -0.54)"/><path class="cls-11" d="M29.79,36.54c-2.19,4.21-6.36,9.76-9.34,17.64-2.21,5.85-4.31,14.36-4,16.58" transform="translate(-2.18 -0.54)"/><line class="cls-13" x1="8.4" y1="4.01" x2="10.6" y2="4.79"/><line class="cls-14" x1="21.2" y1="3.94" x2="25.83" y2="3.06"/>
+					</g>
+					<text x="12.5" y="15" class="svg-text js-svg-text" id="d-color">Arena</text>
+					<!-- <g class="js-svg-text" id="D-color"><path class="cls-12" d="M12.87,9.75l-.08.16a.44.44,0,0,0-.44-.22c-.51,0-.91.44-1.11,1.21s0,1.21.48,1.21a.7.7,0,0,0,.55-.22v.16h.52l.6-2.31ZM12,11.55c-.22,0-.26-.2-.14-.64s.26-.63.48-.63.26.2.15.63-.26.64-.48.64" transform="translate(-2.18 -0.54)"/><path class="cls-12" d="M15.06,11.57c-.22,0-.3-.16-.23-.48h1.26c0-.16.07-.27.1-.42.11-.61-.12-1-.65-1a1.14,1.14,0,0,0-.81.36l.09-.36a.94.94,0,0,0-.68.22V9.75h-.52L13,12.07h.61L14,10.76c.09-.34.29-.46.44-.46a.2.2,0,0,1,.1,0,1.91,1.91,0,0,0-.26.6c-.2.77,0,1.2.64,1.2A1.09,1.09,0,0,0,16,11.3h-.58a.38.38,0,0,1-.37.27m.33-1.32c.18,0,.26.14.2.39H15c.1-.27.24-.39.44-.39" transform="translate(-2.18 -0.54)"/><path class="cls-12" d="M18.09,10.37l-.44,1.7H17l.38-1.45c.07-.25,0-.35-.12-.35s-.26.12-.32.35l-.38,1.45H16l.6-2.31h.52v.16a.79.79,0,0,1,.55-.22c.42,0,.55.22.44.67" transform="translate(-2.18 -0.54)"/><path class="cls-12" d="M19.73,9.75l-.08.16a.44.44,0,0,0-.44-.22c-.51,0-.91.44-1.11,1.21s0,1.21.48,1.21a.7.7,0,0,0,.56-.22v.16h.52l.6-2.31Zm-.87,1.79c-.22,0-.26-.2-.15-.64s.26-.63.48-.63.26.2.15.63-.26.64-.48.64" transform="translate(-2.18 -0.54)"/></g> -->
+					<g class="path-mark" id="e-color">
+					<path d="M25.2,96.67a.89.89,0,0,0,.52-.19l1.07-.66-1.59-1-1.59,1,1.07.66a.9.9,0,0,0,.52.19" transform="translate(-2.18 -0.54)"/><path d="M23.35,93.85a.93.93,0,0,0-.52.16l-1.07.66,1.59,1,1.59-1L23.87,94a.93.93,0,0,0-.52-.16" transform="translate(-2.18 -0.54)"/><path d="M27,93.85a.94.94,0,0,0-.52.16l-1.07.66,1.59,1,1.59-1L27.57,94a.93.93,0,0,0-.52-.16" transform="translate(-2.18 -0.54)"/><path d="M23,91.86,23,92a.41.41,0,0,0-.36-.16c-.37,0-.57.32-.57.87s.2.87.57.87a.4.4,0,0,0,.36-.16l0,.11h.37V91.86Zm-.29,1.29c-.16,0-.23-.14-.23-.46s.07-.46.23-.46.23.14.23.46-.07.46-.23.46" transform="translate(-2.18 -0.54)"/><path d="M24.91,93.17c-.16,0-.25-.12-.26-.35h.91c0-.12,0-.19,0-.3,0-.44-.27-.7-.65-.7a.62.62,0,0,0-.51.26v-.26a.54.54,0,0,0-.45.16l0-.12h-.37v1.66H24v-.94c0-.24.13-.33.24-.33l.07,0a1.13,1.13,0,0,0-.07.43c0,.56.25.86.69.86a.58.58,0,0,0,.64-.59h-.42a.2.2,0,0,1-.22.19m0-.95c.13,0,.22.1.22.28h-.46c0-.19.1-.28.24-.28" transform="translate(-2.18 -0.54)"/><path d="M26.87,92.3v1.22h-.44v-1c0-.18,0-.25-.15-.25s-.17.08-.17.25v1h-.44V91.86H26l0,.12a.43.43,0,0,1,.36-.16c.3,0,.44.16.44.48" transform="translate(-2.18 -0.54)"/><path d="M27.94,91.86l0,.12a.42.42,0,0,0-.36-.16c-.37,0-.58.32-.58.87s.2.87.58.87a.4.4,0,0,0,.36-.16l0,.11h.38V91.86Zm-.29,1.29c-.16,0-.23-.14-.23-.46s.07-.46.23-.46.22.14.22.46-.07.46-.22.46" transform="translate(-2.18 -0.54)"/>
+					</g>
+					</svg>
+				</div>
+				<div class="notes-container">
+					<p class="notes">
+						<span class="asterisk">*</span><span>シミュレーション画像はイメージです。<br>実際の商品と色味やマーキングの大きさ、プリント柄の入り方等が異なる場合がございますので予めご了承下さい。</span>
+						<br>
+						<span class="asterisk">*</span><span>マークには細いフチがつきます。</span>
+					</p>
+					<p class="notes">詳細は「デザインに関する注意事項」をご確認下さい。</p>
+				</div>
+				<span class="custom-rotation u-sp js-rotation" data-rotation="front" data-svg="OAR-7010W"><i class="icon icon--rotation"></i>ROTATION</span>
+				<a href="" class="custom-info__link js-popup-trigger u-sp" data-popup=".popup--design-note">商品情報を見る</a>
+			</div>
+			<span class="custom-rotation u-pc js-rotation" data-rotation="front" data-svg="OAR-7010W"><i class="icon icon--rotation"></i>ROTATION</span>
+		</section>
+		<div class="popup popup--order-sheet js-popup">
+			<div class="popup-inner">
+				<p class="order-sheet__head">オーダーシート作成希望のStyleを選択してください。</p>
+				<a class="popup-close js-popup-close"></a>
+				<ul class="order-sheet__list js-order-sheet-list">
+					<li>
+						<div class="order-sheet__image"><img src="/simulation/assets/images/customisation/examples/item1.jpg" alt="ITEM"></div>
+						<div class="order-sheet__text">
+							<strong class="order-sheet__title">Style1</strong>
+							<p class="order-sheet__desc">OAR-4300　BU02　<br>クロスジャケット　※裏地メッシュなし</p>
+							<span class="order-sheet__pick js-order-sheet-pick"></span>
+						</div>
+					</li>
+					<li>
+						<div class="order-sheet__image"><img src="/simulation/assets/images/customisation/examples/item1.jpg" alt="ITEM"></div>
+						<div class="order-sheet__text">
+							<strong class="order-sheet__title">Style2</strong>
+							<p class="order-sheet__desc">OAR-4300　BU02　<br>クロスジャケット　※裏地メッシュなし</p>
+							<span class="order-sheet__pick js-order-sheet-pick"></span>
+						</div>
+					</li>
+					<li>
+						<div class="order-sheet__image"><img src="/simulation/assets/images/customisation/examples/item1.jpg" alt="ITEM"></div>
+						<div class="order-sheet__text">
+							<strong class="order-sheet__title">Style3</strong>
+							<p class="order-sheet__desc">OAR-4300　BU02　<br>クロスジャケット　※裏地メッシュなし</p>
+							<span class="order-sheet__pick js-order-sheet-pick"></span>
+						</div>
+					</li>
+					<li>
+						<div class="order-sheet__image"><img src="/simulation/assets/images/customisation/examples/item1.jpg" alt="ITEM"></div>
+						<div class="order-sheet__text">
+							<strong class="order-sheet__title">Style4</strong>
+							<p class="order-sheet__desc">OAR-4300　BU02　<br>クロスジャケット　※裏地メッシュなし</p>
+							<span class="order-sheet__pick js-order-sheet-pick"></span>
+						</div>
+					</li>
+				</ul>
+				<div class="button-container u-text-center">
+					<a class="button button--order-sheet" href="">選択したStyleのオーダーシートを作る</a>
+				</div>
+			</div>
+		</div>
+		<div class="popup popup--mark-check js-popup">
+			<div class="popup-inner mark-check">
+				<p class="mark-check__head">入力したマークの確認</p>
+				<a class="popup-close js-popup-close"></a>
+				<canvas id="text-canvas"></canvas>
+				<div class="mark-check__image">
+					<img class="js-mark-check-image" src="">
+				</div>
+				<p class="mark-check__desc">※文字数や書体の形状により実際の文字間、デザインとは異なる場合がございます。</p>
+				<div class="mark-check__notes">
+					<strong>【マーキングデザインの注意事項】</strong>
+					<p>デサントでは、ご希望のデザイン、チーム名、選手名、マーク加工などの内容が、弊社に所有権または使用権がない場合、所有権または使用権を所有する第三者の権利や利益を侵害する場合があります。<br>上記の該当する可能性がある場合は、ご希望にお応えできない場合がございますので、予めご了承ください。</p>
+				</div>
+			</div>
+		</div>
+		<div class="popup popup--design-note js-popup">
+			<div class="popup-inner design-note">
+				<h3 class="design-note__head">デザインに関する注意事項</h3>
+				<a class="popup-close js-popup-close"></a>
+				<div class="design-note__inner">
+					<div class="design-note__desc">
+						
+						<p><span class="asterisk">※</span>シミュレーション画像はイメージです。厳密に実際の商品と同じでなく、色味、マーキングの大きさ、プリント柄の入り方などが異なる場合があります。</p>
+						<p><span class="asterisk">※</span>書体06は小文字の指定ができません。</p>
+						<p><span class="asterisk">※</span>マークには細いフチがつきます。詳細は下記の通りです。</p>
+						<ul>
+							<li>
+								<span>・下記の品番では、マークのフチにAカラーがつきます。</span>
+								<div class="design-note__items">
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image1.jpg" alt="OAT-7062W、OAT-7062WJ、OAT-7063、OAT-7063J"></span>OAT-7062W、OAT-7062WJ、OAT-7063、OAT-7063J</p>
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image2.jpg" alt="OAT-7064W、OAT-7064WJ、OAT-7065、OAT-7065J"></span>OAT-7064W、OAT-7064WJ、OAT-7065、OAT-7065J</p>
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image3.jpg" alt="OAT-7070W、OAT-7070WJ、OAT-7071、OAT-7071J"></span>OAT-7070W、OAT-7070WJ、OAT-7071、OAT-7071J</p>
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image4.jpg" alt="OAT-7072W、OAT-7072WJ、OAT-7073、OAT-7073J"></span>OAT-7072W、OAT-7072WJ、OAT-7073、OAT-7073J</p>
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image5.jpg" alt="OAT-7074W、OAT-7074WJ、OAT-7075、OAT-7075J"></span>OAT-7074W、OAT-7074WJ、OAT-7075、OAT-7075J</p>
+								</div>
+							</li>
+							<li>
+								<span>・下記の品番では、マークのフチにBカラーがつきます。</span>
+								<div class="design-note__items">
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image6.jpg" alt="OAT-7060W、OAT-7060WJ、OAT-7061、OAT-7061J"></span>OAT-7060W、OAT-7060WJ、OAT-7061、OAT-7061J</p>
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image7.jpg" alt="OAT-7066W、OAT-7066WJ、OAT-7067、OAT-7067J"></span>OAT-7066W、OAT-7066WJ、OAT-7067、OAT-7067J</p>
+								</div>
+							</li>
+							<li>
+								<span>・下記の品番では、マークのフチにグラデーションの一番上のカラーがつきます。</span>
+								<div class="design-note__items">
+									<p><span><img src="/simulation/assets/images/customisation/design-note/image8.jpg" alt="OAT-7068W、OAT-7068WJ、OAT-7069、OAT-7069J"></span>OAT-7068W、OAT-7068WJ、OAT-7069、OAT-7069J</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="design-note__desc">
+						
+						<p><span class="asterisk">※</span>ご指定の文字数によって、実施の商品とマーキングの大きさが異なります。<br>マーキングの大きさの目安は下記の通りです。</p>
+						<ul>
+							<li>
+								<span>8文字の場合</span>
+								<div class="design-note__items is-size">
+									<img src="/simulation/assets/images/customisation/design-note/size1.png" alt="8文字の場合">
+								</div>
+							</li>
+							<li>
+								<span>5文字の場合</span>
+								<div class="design-note__items is-size">
+									<img src="/simulation/assets/images/customisation/design-note/size2.png" alt="5文字の場合">
+								</div>
+							</li>
+							<li>
+								<span>2文字の場合</span>
+								<div class="design-note__items is-size">
+									<img src="/simulation/assets/images/customisation/design-note/size3.png" alt="2文字の場合">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</main>
+
+{% endblock %}
+
+{% block scripts %} 
+{% endblock %}

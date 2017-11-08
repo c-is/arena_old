@@ -1,0 +1,490 @@
+{% block pageid %}home{% endblock %}
+{% block title %}home{% endblock %}
+
+{% extends 'layout/_layout.nunjucks' %}
+
+{% block content %}
+<main class="main main--home" id="main" role="main">
+	<article class="content content--home" id="content">
+		<nav class="content-navigation">
+			<ul class="clear">
+				<li class="active"><span>種類を選ぶ</span></li>
+				<li><span>カスタムする</span></li>
+				<li><span>オーダーする</span></li>
+			</ul>
+		</nav>
+		<section class="section section--top js-get-height">
+			<div class="menu-door menu-door--swimwear">
+				<div class="menu-door__inner u-center-vertical">
+					<a class="menu-door__link js-scroll-link" href="#item-swimwear"></a>
+					<h2 class="menu-door__title"><img src="/simulation/assets/images/common/text-swimwear.png" alt="SWIMWEAR"></h2>
+					<p class="menu-door__desc u-pc">スイムウェアは、FINA承認モデルです。（TOUGH SUITはFINA承認モデルではありません。）それぞれ異なる特徴をもった３つの素材があります。<br>アリーナの先端技術が、100分の1秒に挑戦するアスリートたちを応援します。</p>
+					<div class="menu-door__desc u-sp">種類を選ぶ</div>
+				</div>
+				<div class="menu-door__bg"></div>
+			</div>
+			<div class="menu-door menu-door--teamwear">
+				<div class="menu-door__inner u-center-vertical">
+					<a class="menu-door__link js-scroll-link" href="#item-teamwear"></a>
+					<h2 class="menu-door__title"><img src="/simulation/assets/images/common/text-teamwear.png" alt="TEAMWEAR"></h2>
+					<p class="menu-door__desc u-pc">さまざまな機能をかね備えた、ジャケットとパンツのセットアップをラインナップ。<br>Tシャツも合わせてご用意しております。</p>
+					<div class="menu-door__desc u-sp">種類を選ぶ</div>
+				</div>
+				<div class="menu-door__bg"></div>
+			</div>
+		</section>
+
+		<section class="section section--swimwear" id="item-swimwear">
+			<header class="item-head item-head--swimwear">
+				<div class="u-inner">
+					<h2 class="item-head__title"><img src="/simulation/assets/images/common/text-swimwear.png" alt="SWIMWEAR"></h2>
+					<p class="item-head__desc">スイムウェアは、FINA承認モデルです。（TOUGH SUITはFINA承認モデルではありません。）それぞれ異なる特徴をもった３つの素材があります。<br>アリーナの先端技術が、100分の1秒に挑戦するアスリートたちを応援します。</p>
+				</div>
+			</header>
+			<div class="item-inner">
+				<div class="u-inner">
+					<article class="item-collection">
+						<h3 class="item-collection__title"><img src="/simulation/assets/images/common/text-aquaforce.png" alt="AQUAFORCE FUSION"><i class="icon icon--fina"><img src="/simulation/assets/images/icons/icon-fina.png" alt="FINA承認モデル"></i></h3>
+						<p class="item-collection__desc">表地には、多くのトップスイマーが着用している布帛素材を100%使用しています。今まで布帛素材を着用したことの無いスイマーにもお勧めできるハイパフォーマンスモデルです。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href="/simulation/simulation"></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-aquaforce1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-aquaforce2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-aquaforce3.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Girl’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-aquaforce4.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+
+			<div class="item-inner">
+				<div class="u-inner">
+					<article class="item-collection">
+						<h3 class="item-collection__title"><img src="/simulation/assets/images/common/text-x-python.png" alt="X-Python"><i class="icon icon--fina"><img src="/simulation/assets/images/icons/icon-fina.png" alt="FINA承認モデル"></i></h3>
+						<p class="item-collection__desc">ニット素材を使用したモデルです。ポリウレタンを身体にまきつく（横方向）方向に配置することで身体にしっかりフィットし、スムーズな泳ぎをサポートします。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-x-python1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-x-python2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-x-python3.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Girl’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-x-python4.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+
+			<div class="item-inner">
+				<div class="u-inner">
+					<article class="item-collection">
+						<h3 class="item-collection__title"><img src="/simulation/assets/images/common/text-uroko-skin.png" alt="UROKO SKIN"><i class="icon icon--fina"><img src="/simulation/assets/images/icons/icon-fina.png" alt="FINA承認モデル"></i></h3>
+						<p class="item-collection__desc">地厚な安心感と、伸びのあるフィット感／塩素に強く長持ち、はっ水加工でシャープな水切れ／ウロコ柄の表面感にスポーティなデザイン</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-uroko-skin1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-uroko-skin2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-uroko-skin3.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Girl’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-uroko-skin4.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+
+			<div class="item-inner">
+				<div class="u-inner">
+					<article class="item-collection">
+						<h3 class="item-collection__title"><img src="/simulation/assets/images/common/text-tough-suit.png" alt="Tought suit"></h3>
+						<p class="item-collection__desc">耐久性に優れた素材と運動性を重視したアイテム。頻度が高く、過酷なトレーニングを行う競泳スイマーやマスターズスイマーに最適な水着。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-tough-suit1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-tough-suit2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-tough-suit3.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Girl’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-tough-suit4.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+
+			<div class="item-inner">
+				<div class="u-inner">
+					<article class="item-collection">
+						<h3 class="item-collection__title"><img src="/simulation/assets/images/common/text-print-custom.png" alt="TOUGH SUIT PRINT CUSTOM ORDER"></h3>
+						<p class="item-collection__desc">デザイン・カラーを選択してチーム名が柄に出来る。自分たちだけのオリジナル練習用水着を作ろう。</p>
+						<ul class="item-list item-list--long clear">
+							<li>
+								<div class="item-list__image">
+									<div class="u-center-vertical print-item-list">
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item1.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item2.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item3.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item4.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item5.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item6.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item7.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item8.png" alt="ITEM">
+										</a>
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Women’s</span></div>
+							</li>
+							<li>
+								<div class="item-list__image">
+									<div class="u-center-vertical print-item-list">
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item1.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item2.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item3.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item4.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item5.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item6.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item7.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item8.png" alt="ITEM">
+										</a>
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Girl’s</span></div>
+							</li>
+							<li>
+								<div class="item-list__image">
+									<div class="u-center-vertical print-item-list print-item-list--multi-row">
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item9.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item10.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item11.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item12.png" alt="ITEM">
+										</a>
+										<br>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item13.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item14.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item15.png" alt="ITEM">
+										</a>
+										<a class="print-item" href="">
+											<img src="/simulation/assets/images/items/print-custom/item16.png" alt="ITEM">
+										</a>
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s</span></div>
+							</li>
+							<li>
+								<div class="item-list__image">
+									<div class="item-list__image">
+										<div class="u-center-vertical print-item-list print-item-list--multi-row">
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item9.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item10.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item11.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item12.png" alt="ITEM">
+											</a>
+											<br>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item13.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item14.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item15.png" alt="ITEM">
+											</a>
+											<a class="print-item" href="">
+												<img src="/simulation/assets/images/items/print-custom/item16.png" alt="ITEM">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--teamwear" id="item-teamwear">
+			<header class="item-head item-head--teamwear">
+				<div class="u-inner">
+					<h2 class="item-head__title"><img src="/simulation/assets/images/common/text-teamwear.png" alt="TEAMWEAR"></h2>
+					<p class="item-head__desc">さまざまな機能をかね備えた、ジャケットとパンツのセットアップをラインナップ。<br>Tシャツも合わせてご用意しております。</p>
+				</div>
+			</header>
+			<div class="item-inner">
+				<div class="u-inner u-flex clear">
+					<article class="item-collection is-col2">
+						<h3 class="item-collection__title">クロスタイプ</h3>
+						<p class="item-collection__lubi">Cloth type</p>
+						<p class="item-collection__desc">肌離れが良い、裏メッシュなしのクロスタイプ。軽量感とストレッチ性に優れています。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-cross-type1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s & Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-cross-type2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s & Girl’s</span></div>
+							</li>
+						</ul>
+					</article>
+					<article class="item-collection is-col2">
+						<h3 class="item-collection__title">ウインドブレーカータイプ</h3>
+						<p class="item-collection__lubi">Windbreaker type</p>
+						<p class="item-collection__desc">防水・防風に優れたウインドブレーカータイプ。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-wind-breaker1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s & Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-wind-breaker2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s & Girl’s</span></div>
+							</li>
+						</ul>
+					</article>
+					<article class="item-collection is-col2">
+						<h3 class="item-collection__title">ジャージタイプ</h3>
+						<p class="item-collection__lubi">Jersey type</p>
+						<p class="item-collection__desc">ふくらみのある素材を使用。ソフトで安心感のある着用感。</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-jersey-type1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s & Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-jersey-type2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s & Girl’s</span></div>
+							</li>
+						</ul>
+					</article>
+					<article class="item-collection is-col2">
+						<h3 class="item-collection__title">Tシャツ</h3>
+						<p class="item-collection__lubi">T-Shirt</p>
+						<p class="item-collection__desc">・・</p>
+						<ul class="item-list clear">
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-t-shirt1.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Men’s & Women’s</span></div>
+							</li>
+							<li>
+								<a class="item-list__link" href=""></a>
+								<div class="item-list__image">
+									<div class="u-center-vertical">
+										<img src="/simulation/assets/images/items/item-t-shirt2.png" alt="ITEM">
+									</div>
+								</div>
+								<div class="item-list__desc"><span>Boy’s & Girl’s</span></div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</section>
+	</article>
+</main>
+
+{% endblock %}
+
+{% block scripts %} 
+{% endblock %}

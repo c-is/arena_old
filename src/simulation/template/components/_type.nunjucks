@@ -1,0 +1,15 @@
+<h4 class="custom-pick__title">TYPE</h4>
+<ul class="custom-pick__list js-wear-type clear">
+	<li>
+		<a class="active" data-svg="OAR-7010W"><img src="/simulation/assets/images/customisation/custom1.png" alt="top"></a>
+	</li>
+	<li>
+		<a data-svg="item1-body"><img src="/simulation/assets/images/customisation/custom2.png" alt="top"></a>
+	</li>
+	<li class="is-no-option">
+		<img src="/simulation/assets/images/customisation/custom-none.png" alt="top">
+	</li>
+	<li class="is-no-option">
+		<img src="/simulation/assets/images/customisation/custom-none.png" alt="top">
+	</li>
+</ul>

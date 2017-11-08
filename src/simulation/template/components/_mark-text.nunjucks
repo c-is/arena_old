@@ -1,0 +1,6 @@
+<h4 class="custom-pick__title is-border">マークの名前</h4>
+<form class="custom-pick__input" data-cate="text">
+	<input class="js-mark-text disabled" type="text" name="text-mark" placeholder="入力する" value="">
+	<input class="js-mark-submit js-mark-popup-trigger" data-popup=".popup--mark-check" type="submit" name="" value="マークを確認する">
+	<div class="form-message"></div>
+</form>

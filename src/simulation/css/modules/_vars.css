@@ -1,0 +1,66 @@
+$main-font: "HelveticaNeue", "Helvetica Neue", "Hiragino Kaku Gothic Pro", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+$main-colour: #313131;
+$sub-colour: #878787;
+$bg-colour: #1A1A1A;
+$bg-sub-colour: #f6f4f4;
+
+$green: #c8ffc8;
+$deep-green: #04F004;
+$red: #FF6262;
+
+$gray: #504f4f;
+$light-gray: #b5b5b5;
+
+$content-width: 740px;
+$content-top: 1.6em;
+
+@define-mixin CisGradationHol {
+	background: rgb(200,255,200);
+	background: -moz-linear-gradient(left,  rgba(200,255,200,1) 0%, rgba(225,239,225,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+	background: linear-gradient(to right,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+}
+@define-mixin CisGradation2Hol {
+	background: rgb(200,255,200);
+	background: -moz-linear-gradient(left,  rgba(200,255,200,1) 0%, #333 100%);
+	background: -webkit-linear-gradient(left,  rgba(200,255,200,1) 0%,#333 100%);
+	background: linear-gradient(to right,  rgba(200,255,200,1) 0%,#333 100%);
+}
+@define-mixin CisGradationVer {
+	background: rgb(200,255,200);
+	background: -moz-linear-gradient(top,  rgba(200,255,200,1) 0%, rgba(225,239,225,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+	background: linear-gradient(to bottom,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+}
+@define-mixin gradation {
+	background: -webkit-linear-gradient(0deg, #ffffff 0%, #fefdfc 10%, #f1efe5 51%, #fefefd 92%, #ffffff 100%);
+	background: -moz-linear-gradient(0deg, #ffffff 0%, #fefdfc 10%, #f1efe5 51%, #fefefd 92%, #ffffff 100%);
+	background: -o-linear-gradient(0deg, #ffffff 0%, #fefdfc 10%, #f1efe5 51%, #fefefd 92%, #ffffff 100%);
+	background: -ms-linear-gradient(0deg, #ffffff 0%, #fefdfc 10%, #f1efe5 51%, #fefefd 92%, #ffffff 100%);
+	background: linear-gradient(90deg, #ffffff 0%, #fefdfc 10%, #f1efe5 51%, #fefefd 92%, #ffffff 100%);
+}
+@define-mixin borderGradation {
+	border-color: rgb(200,255,200);
+	border-color: -moz-linear-gradient(left,  rgba(200,255,200,1) 0%, rgba(225,239,225,1) 100%);
+	border-color: -webkit-linear-gradient(left,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+	border-color: linear-gradient(to right,  rgba(200,255,200,1) 0%,rgba(225,239,225,1) 100%);
+}
+@define-mixin longShadow {
+	text-shadow: rgb(255, 255, 255) 1px 1px,
+		rgb(255, 255, 255) 2px 2px,
+		rgb(255, 255, 255) 3px 3px,
+		rgb(255, 255, 255) 4px 4px,
+		rgb(255, 255, 255) 5px 5px,
+		rgb(255, 255, 255) 6px 6px,
+		rgb(255, 255, 255) 7px 7px,
+		rgb(255, 255, 255) 8px 8px,
+		rgb(200, 255, 211) 9px 9px,
+		rgb(200, 255, 211) 10px 10px,
+		rgb(200, 255, 211) 11px 11px,
+		rgb(200, 255, 211) 12px 12px,
+		rgb(200, 255, 211) 13px 13px,
+		rgb(200, 255, 211) 14px 14px,
+		rgb(200, 255, 211) 15px 15px,
+		rgb(200, 255, 212) 16px 16px;
+}

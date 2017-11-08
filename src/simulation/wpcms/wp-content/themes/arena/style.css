@@ -1,0 +1,97 @@
+/*
+Theme Name: arena CUSTOM ORDER
+Theme URI: //custom.arena-jp.com
+Description: 水着のカスタムオーダー
+Version: 1.0
+Author: DESCENTE
+Author URI: //www.descente.co.jp
+*/
+
+/* 以下、あとでマージする(2)  */
+
+.popup--system-requirements {
+  color: white;
+}
+
+.popup-inner .docs-section {
+  color: white;
+  padding: 1em 2em;
+}
+
+/* 以下、あとでマージする(1)  */
+
+.menu-door__bg {
+  background-color: #005eb8;
+}
+
+.item-list li {
+  background-color: #666666;
+}
+
+.order-sheet__image canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+@media (min-width:1025px){
+	.custom-pick__fonts li {
+	  width: 50%;
+	}
+
+	.custom-pick__fonts li img {
+	  vertical-align: text-top;
+	}
+
+	.custom-pick__fonts li.font--fancy {
+	  width: 100%;
+	}
+}
+@media (max-width:768px){
+	.custom-pick__fonts li {
+	  width: 100%;
+	}
+
+	.custom-pick__fonts li.font--fancy {
+	  width: 100%;
+	}
+}
+
+@media all and (-ms-high-contrast: none){
+	.custom-display-core svg {
+		height: 600px;
+	}
+	.footer {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.post-template-default {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait){
+	.custom-menu__content {
+		padding-bottom: 24px;
+	}
+}
+
+.u-pc img,
+.u-sp img {
+	width: 100%;
+}
+
+.product-info__head {
+	padding-top: 40px;
+}
+
+@media only screen and (max-width: 400px){
+	.custom-display svg {
+		width: 100%;
+	}
+}
+
+

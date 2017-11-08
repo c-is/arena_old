@@ -1,0 +1,4 @@
+<ul class="custom-pick__mark-print clear js-mark-print">
+	<li><a class="js-mark-tab-trigger active" data-tab=".js-custom-pick-tab--pos" data-print="point"><i class="icon icon--tick"></i>ポイントマーク</a></li>
+	<li><a class="js-mark-tab-trigger" data-tab=".js-custom-pick-tab--direction" data-print="design"><i class="icon icon--tick"></i>デザインマーク</a></li>
+</ul>

@@ -1,0 +1,13 @@
+<h4 class="custom-pick__title is-border">マークの色</h4>
+<div class="colour-section">
+	<ul class="custom-pick__colours js-colour js-colour--mark" data-cate="col" data-target="#position-n">
+		<li class="colour--wht active" data-colour="#ffffff" data-code="WHT" style="background-color:#ffffff"></li>
+		<li class="colour--yel " data-colour="#ffdd00" data-code="YEL" style="background-color:#ffdd00"></li>
+		<li class="colour--red " data-colour="#ed1c24" data-code="RED" style="background-color:#ed1c24"></li>
+		<li class="colour--slv " data-colour="#a7aaac" data-code="SLV" style="background-color:#a7aaac"></li>
+		<li class="colour--nvy " data-colour="#33336d" data-code="NVY" style="background-color:#33336d"></li>
+		<li class="colour--blk " data-colour="#232020" data-code="BLK" style="background-color:#232020"></li>
+		<li class="colour--blu " data-colour="#034694" data-code="BLU" style="background-color:#034694"></li>
+		<li class="colour--grn " data-colour="#00854a" data-code="GRN" style="background-color:#00854a"></li>
+	</ul>
+</div>

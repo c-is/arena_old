@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/**
+ * CSS Document
+ * 
+ * コーディング規約は「/assets/theme.css」に記載
+ * 
+ * 
+ */
+
+body {
+}
+
+/**/
+.wp-list-table .column-menu_order {
+  width: 6em;
+}
+
+/* Menu */
+
+#menu-posts-news .wp-first-item {
+  display: none;
+}
+
+#menu-posts-faq .wp-first-item {
+  display: none;
+}

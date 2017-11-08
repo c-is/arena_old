@@ -1,0 +1,75 @@
+.button {
+	display: inline-block;
+	&--order-sheet {
+		width: 30.000em;
+		height: 3.600em;
+		margin-top: 2.000em;
+		background-color: #666666;
+		text-align: center;
+		color: #fff;
+		font-size: 1.167em;
+		line-height: 3.5;
+		transition: all 0.4s ease-in-out-circ;
+		&:hover {
+			color: #666;
+			background-color: #fff;
+		}
+	}
+}
+.icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	&--rotation {
+		width: 1.667rem;
+		height: 1.500rem;
+		background-image: url(/simulation/assets/images/icons/icon-rotation.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		vertical-align: sub;
+		margin-right: 8px;
+	}
+	&--fina {
+		margin-left: 2rem;
+		line-height: 0;
+		vertical-align: middle;
+		img {
+			height: 100%;
+		}
+	}
+	&--line {
+		width: 3.3333rem;
+		height: 3.3333rem;
+		margin: 0 1rem;
+		background-image: url(/simulation/assets/images/icons/icon-line.png);
+		background-size: 100%;
+		background-position: center;
+		transition: opacity 0.4s ease-in-out-circ;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+	&--twitter {
+		width: 3.3333rem;
+		height: 3.3333rem;
+		margin: 0 1rem;
+		background-image: url(/simulation/assets/images/icons/icon-twitter.png);
+		background-size: 100%;
+		background-position: center;
+		transition: opacity 0.4s ease-in-out-circ;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+	&--facebook {
+		width: 3.3333rem;
+		height: 3.3333rem;
+		margin: 0 1rem;
+		background-image: url(/simulation/assets/images/icons/icon-facebook.png);
+		background-size: 100%;
+		background-position: center;
+		transition: opacity 0.4s ease-in-out-circ;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

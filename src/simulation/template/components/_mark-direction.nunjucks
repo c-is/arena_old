@@ -1,0 +1,23 @@
+<h4 class="custom-pick__title is-border">マークの向き</h4>
+<ul class="custom-pick__list js-mark-pos clear" data-cate="pos">
+	<li>
+		<a class="active" data-side="front" data-pos="F" data-value="F" data-angle="0" data-max-en="8" data-max-em="5">
+			<img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-direction1.png" alt="左胸" title="左胸">
+		</a>
+	</li>
+	<li>
+		<a data-side="back" data-pos="G" data-value="G" data-angle="0" data-max-en="10" data-max-em="7">
+			<img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-direction2.png" alt="背中" title="背中">
+		</a>
+	</li>
+	<li>
+		<a data-side="back" data-pos="G" data-value="G" data-angle="0" data-max-en="10" data-max-em="7">
+			<img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-direction3.png" alt="背中" title="背中">
+		</a>
+	</li>
+	<li>
+		<a data-side="back" data-pos="G" data-value="G" data-angle="0" data-max-en="10" data-max-em="7">
+			<img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-direction4.png" alt="背中" title="背中">
+		</a>
+	</li>
+</ul>

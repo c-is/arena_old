@@ -1,0 +1,80 @@
+<article class="content content--order-select" id="content" ng-style="{height: contentHeight}">
+  <header class="content-header clear">
+    <div class="content-header__title">
+      <i class="icon icon--order"><img src="/assets/images/icons/icon-application_trans.png" alt="ORDER"></i>
+      <strong>{{translation.MOBILE_LINE}} {{translation.ADDITIONAL_AMOUNT_ORDERS}}【{{translation.ORDER_CONTENTS}} {{translation.CONFIRMATION_FIELD}}】</strong>
+    </div>
+    <div class="content-header__link">
+      <ul class="breadcrumbs">
+        <li><a href="/mobile-order/">{{translation.ORDER_SELECT}}</a></li>
+        <li><a href="/mobile-order/list">Arcstar Universal One mobile 契約⼀覧</a></li>
+      </ul>
+      <a href="/order/request">
+        <i class="icon icon--list"></i>
+        {{translation.ORDER_HOME}}
+      </a>
+      <a href="/">
+        <i class="icon icon--dashboard"></i>
+        <span>Dashboard</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="content-inner">
+    <div ng-include src="'/front/views/partials/_article-header.html'"></div>
+
+    <section class="section section--list">
+      <div class="manager-container is-confirmation">
+        <div class="confirmation-info">
+          <div class="confirmation-info__inner">
+            <div class="confirmation-info__head">
+              <span>{{translation.TERMINATION_NUMBER}}</span>
+            </div>
+            <div class="confirmation-info__desc is-coloured is-large">
+              <span><strong class="item-number">{{totalNumber}}</strong>{{translation.LINE}}</span>
+            </div>
+          </div>
+          <div class="confirmation-info__inner">
+            <div class="confirmation-info__head">
+              <span>{{translation.TERMINATION_DATE}}</span>
+            </div>
+            <div class="confirmation-info__desc">
+              <span>{{startDate.year}}{{translation.YEAR}} {{startDate.month}}{{translation.MONTH}} {{startDate.day}}{{translation.DAY}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="manager-exe-list is-volume-add is-no-checkbox">
+          <ul class="manager-exe-list__head">
+            <li class="item-0">{{translation.CONTRACT_NUMBER}}</li>
+            <li class="item-1">{{translation.BASE_AMOUNT}}</li>
+            <li class="item-2">
+              <p class="item-title">{{translation.TOTAL_ADDITIONAL_AMOUNT}}</p>
+              <p class="item-subtitle"><span>{{translation.ADDED_AMOUNT}}</span><i class="icon icon--order-plus"></i><span>{{translation.ADDING_AMOUNT}}</span></p>
+            </li>
+          </ul>
+          <ul class="manager-exe-list__content" ng-scrollbars ng-scrollbars-config="config">
+            <li ng-repeat="item in newEl track by $index" data-id="{{$index}}">
+              <div class="manager-item item-0">{{getObject(item, 0)}}</div>
+              <div class="manager-item item-1">{{getObject(item, 1).toFixed(1)}}GB</div>
+              <div class="manager-item item-2">
+                <span>{{getObject(item, 2).toFixed(1)}}GB</span>
+                <i class="icon icon--order-plus"></i>
+                <span>{{(getObject(item, 3) - getObject(item, 2)).toFixed(1)}}GB</span>
+                <i class="icon icon--order-equal"></i>
+                <span class="total-amount">{{getObject(item, 3)}}GB</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="error-message"></div>
+    <div class="button-container button-container--list u-text-center">
+      <a class="button button--back" href="/mobile-order/volume-add/"><i class="icon icon--back"></i>{{translation.BACK_TO_CONFIGURATIONS}}</a>
+      <a class="button button--confirm" href="/mobile-order/order-done" ng-click=orderProcess($event)>{{translation.COMPLETE}}</a>
+    </div>
+  </div>
+  <div class="loader-container" ng-show="loading">
+    <div class="loader"></div>
+  </div>
+</article>

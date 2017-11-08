@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "flowers",
+      "category": "photography",
+      "class": "photography",
+      "post_url": "/works/flowers",
+      "description": "Flowers sprout from deep sleep. There is no resentment. All there left is the virtue. Dreams never end and I shall wait for you there.",
+      "main_image": "/assets/images/works/000001.jpg",
+      "images": [
+        {
+          "image": "/assets/images/works/image1.jpg"
+        },
+        {
+          "image": "/assets/images/works/image2.jpg"
+        },
+        {
+          "image": "/assets/images/works/image3.jpg"
+        },
+        {
+          "image": "/assets/images/works/image4.jpg"
+        },
+        {
+          "image": "/assets/images/works/image5.jpg"
+        }
+      ],
+      "post_size": "largest"
+    },
+    {
+      "id": 2,
+      "title": "Flex Agent",
+      "category": "web design",
+      "class": "web-design",
+      "description": "Website renewal for the web developping company we used to work.<br>The pop look creates a friendly atmosphere in the office and you can see each ones in the member page which is the feature of this project.",
+      "post_url": "/works/flowers",
+      "skillset": "Skillset: Photoshop, Illustrator, Kiev 88, HTML5, css3, Javascript, JQuery, Ajax, Instagram API",
+      "main_image": "/assets/images/works/fa1.jpg",
+      "images": [
+        {
+          "image": "/assets/images/works/image1.jpg"
+        },
+        {
+          "image": "/assets/images/works/image2.jpg"
+        },
+        {
+          "image": "/assets/images/works/image3.jpg"
+        },
+        {
+          "image": "/assets/images/works/image4.jpg"
+        },
+        {
+          "image": "/assets/images/works/image5.jpg"
+        }
+      ],
+      "post_size": "large"
+    },
+    {
+      "id": 3,
+      "title": "Yz films",
+      "category": "graphic design",
+      "class": "graphic-design",
+      "post_url": "/works/flowers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "main_image": "/assets/images/works/yzfilms.jpg",
+      "images": [
+        {
+          "image": "/assets/images/works/image1.jpg"
+        },
+        {
+          "image": "/assets/images/works/image2.jpg"
+        },
+        {
+          "image": "/assets/images/works/image3.jpg"
+        },
+        {
+          "image": "/assets/images/works/image4.jpg"
+        },
+        {
+          "image": "/assets/images/works/image5.jpg"
+        }
+      ],
+      "post_size": "large"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<h4 class="custom-pick__title is-border">マークの書体</h4>
+<div class="colour-section">
+	<ul class="custom-pick__fonts js-mark-family clear" data-cate="font">
+		<li class="font--swis721-md-bt">
+			<input type="radio" id="custom-font40" name="custom-font" value=".mrk001" data-max-lang="en" data-code="001" checked="checked">
+			<label for="custom-font40"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk001.png" alt="Swis721 Md BT" title="Swis721 Md BT"></label>
+		</li>
+		<li class="font--swis721-blk-bt">
+			<input type="radio" id="custom-font41" name="custom-font" value=".mrk002" data-max-lang="en" data-code="002">
+			<label for="custom-font41"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk002.png" alt="Swis721 Blk BT" title="Swis721 Blk BT"></label>
+		</li>
+		<li class="font--aachen-bt">
+			<input type="radio" id="custom-font42" name="custom-font" value=".mrk006" data-max-lang="en" data-code="006">
+			<label for="custom-font42"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk006.png" alt="Aachen BT" title="Aachen BT"></label>
+		</li>
+		<li class="font--roman">
+			<input type="radio" id="custom-font43" name="custom-font" value=".mrk021" data-max-lang="en" data-code="021">
+			<label for="custom-font43"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk021.png" alt="Roman" title="Roman"></label>
+		</li>
+		<li class="font--windsor-el-bt">
+			<input type="radio" id="custom-font44" name="custom-font" value=".mrk023" data-max-lang="en" data-code="023">
+			<label for="custom-font44"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk023.png" alt="Windsor El BT" title="Windsor El BT"></label>
+		</li>
+		<li class="font--fullblock">
+			<input type="radio" id="custom-font45" name="custom-font" value=".mrk034" data-max-lang="en" data-code="034">
+			<label for="custom-font45"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk034.png" alt="Fullblock" title="Fullblock"></label>
+		</li>
+		<li class="font--cheltenhm-bdhd-bt">
+			<input type="radio" id="custom-font46" name="custom-font" value=".mrk035" data-max-lang="en" data-code="035">
+			<label for="custom-font46"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk035.png" alt="Cheltenhm BdHd BT" title="Cheltenhm BdHd BT"></label>
+		</li>
+		<li class="font--pisa">
+			<input type="radio" id="custom-font47" name="custom-font" value=".mrk036" data-max-lang="en" data-code="036">
+			<label for="custom-font47"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk036.png" alt="Pisa" title="Pisa"></label>
+		</li>
+		<li class="font--fancy">
+			<input type="radio" id="custom-font48" name="custom-font" value=".mrk037" data-max-lang="en" data-code="037">
+			<label for="custom-font48"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk037.png" alt="Fancy" title="Fancy"></label>
+		</li>
+		<li class="font--hgsoeikakugothicub">
+			<input type="radio" id="custom-font49" name="custom-font" value=".mrk038" data-max-lang="em" data-code="038">
+			<label for="custom-font49"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk038.png" alt="HGSoeiKakugothicUB" title="HGSoeiKakugothicUB"></label>
+		</li>
+		<li class="font--hgsyounangyoshotai">
+			<input type="radio" id="custom-font50" name="custom-font" value=".mrk040" data-max-lang="em" data-code="040">
+			<label for="custom-font50"><img src="http://arena.ccvdev.net/simulation/wpcms/wp-content/uploads/mark-font-mrk040.png" alt="HGSyounanGyoshotai" title="HGSyounanGyoshotai"></label>
+		</li>
+	</ul>
+</div>
